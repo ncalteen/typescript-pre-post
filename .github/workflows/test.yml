@@ -1,0 +1,19 @@
+name: Workflow Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test Action
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: List Current Dir
+        run: ls -la ${{ github.workspace }}
+
+      - name: Run Action
+        uses: ncalteen/typescript-pre-post@main
+
+      - name: List Current Dir Again
+        run: ls -la ${{ github.workspace }}
