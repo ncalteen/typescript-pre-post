@@ -1,9 +1,9 @@
 /**
- * Unit tests for src/main/wait.ts
+ * Unit tests for src/wait.ts
  */
-import { wait } from '../../src/main/wait.js'
+import { wait } from '../../src/wait.js'
 
-describe('main/wait.ts', () => {
+describe('src/wait.ts', () => {
   it('Throws an invalid number', async () => {
     const input = parseInt('foo', 10)
 

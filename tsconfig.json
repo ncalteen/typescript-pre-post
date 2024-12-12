@@ -3,9 +3,8 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "outDir": "./dist"
+    "moduleResolution": "NodeNext"
   },
   "exclude": ["__fixtures__", "__tests__", "coverage", "dist", "node_modules"],
-  "include": ["src"]
+  "include": ["post", "pre", "src"]
 }
