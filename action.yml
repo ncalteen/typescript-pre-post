@@ -21,6 +21,6 @@ outputs:
 
 runs:
   using: node20
-  main: dist/main/index.js
-  pre: dist/pre/index.js
-  post: dist/post/index.js
+  main: dist/main.js
+  pre: dist/pre.js
+  post: dist/post.js
